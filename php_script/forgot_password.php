@@ -40,12 +40,12 @@ if ($result->num_rows > 0) {
         try {
             //Server settings
             $mail->isSMTP();
-            $mail->Host       = 'smtp.gmail.com';
+            $mail->Host       = '';
             $mail->SMTPAuth   = true;
             $mail->Username   = 'andika email yako'; // Update with your Gmail email
             $mail->Password   = 'andika password yako'; // Update with your Gmail password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-            $mail->Port       = 465;
+            $mail->Port       = ;
 
             //Recipients
             $mail->setFrom('andika email yako', 'SpecialEducationTeachers App');
